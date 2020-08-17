@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-11 col-md-8 col-lg-5 mt-5 p-4 border rounded">
+            <div>
+                <h3> Calculator</h3>
+                <hr>
+                <form class="d-flex mb-2">
+                    <input type="text" class="form-control screen ">
+                    <button type="button" class="btn btn-danger del-btn px-3 "> <i class="fas fa-backspace"></i></button>
+                </form>
+                <div class="buttons d-flex flex-wrap">
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num=".">.</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="%">%</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn double w-100 btn-outline-primary">x<sup>2</sup></button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn w-100 btn-outline-danger btn-clear">AC</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="7">7</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="8">8</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="9">9</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="/">/</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="4">4</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="5">5</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="6">6</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="*">*</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="1">1</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="2">2</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="3">3</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="-">-</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="0">0</button>
+                    </div>
+
+                    <div class="col-6 p-1">
+                        <button class="btn w-100 btn-outline-success btn-equal">=</button>
+                    </div>
+                    <div class="col-3 p-1">
+                        <button class="btn number-sign w-100 btn-outline-primary" data-num="+">+</button>
+                    </div>
+                </div>
+                <div class="mt-1">
+                    <ul class="list-group result">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/all.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

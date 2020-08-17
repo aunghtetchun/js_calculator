@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w-100{
+    font-size: 30px;
+    font-weight: bold;
+}
+.screen{
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+}
+.del-btn{
+    margin-left: -54px;
+    z-index: 2;
+}
+.result{
+    font-size: 23px;
+    font-weight: bold;
+}
